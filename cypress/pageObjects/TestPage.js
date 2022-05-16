@@ -9,11 +9,11 @@ class TestPage extends BasePage {
         return cy.get("exampleSelector");
     }
 
-    static get f_Name() {
+    static get firstName() {
         return cy.get("#firstName");
     }
 
-    static get l_Name() {
+    static get lastName() {
         return cy.get("#lastName");
     }
 
@@ -29,15 +29,15 @@ class TestPage extends BasePage {
         return cy.get("#userNumber");
     }
 
-    static get dateOfBirth() {
+    static get date_bday() {
         return cy.get("#dateOfBirthInput");
     }
 
-    static get month_set() {
+    static get month_pick() {
         return cy.get(".react-datepicker__month-select");
     }
 
-    static get year_set() {
+    static get year_pick() {
         return cy.get(".react-datepicker__year-select");
     }
 
@@ -45,19 +45,19 @@ class TestPage extends BasePage {
         return cy.get("[aria-label='Choose Friday, February 28th, 1930']");
     }
 
-    static get subjects_input() {
+    static get sub_input() {
         return cy.get("#subjectsContainer");
     }
 
-    static get economics_pick() {
+    static get ekonomic_pick() {
         return cy.get("#react-select-2-option-0");
     }
 
-    static get hobbies_checkBox() {
+    static get hobby_check() {
         return cy.get("#hobbies-checkbox-3");
     }
 
-    static get upload_picture() {
+    static get upload_pic() {
         return cy.get('input[type=file]');
     }
 
@@ -65,7 +65,7 @@ class TestPage extends BasePage {
         return cy.get("#currentAddress");
     }
 
-    static get state_dropdown() {
+    static get state_drop() {
         return cy.get("#state");
     }
 
@@ -73,7 +73,7 @@ class TestPage extends BasePage {
         return cy.get("#react-select-3-option-0");
     }
 
-    static get city_dropdown() {
+    static get city_drop() {
         return cy.get("#city");
     }
 
@@ -81,7 +81,7 @@ class TestPage extends BasePage {
         return cy.get("#react-select-4-option-0");
     }
 
-    static get form_submit() {
+    static get form_sub() {
         return cy.get("#submit");
     }
 
